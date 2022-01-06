@@ -1,0 +1,304 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header-area{
+    display: flex;
+    width: 70%;
+    margin: auto;
+
+}
+
+.header-text{
+    margin-top: 70px;
+    padding: 10px;
+} 
+
+.header-text h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 55px;
+    font-family: YesevaOne;
+    color: #333333;
+    border-left: 5px solid #363030dc;
+    border-radius: 10px;
+}
+
+.header-text h1 span{
+    color: #FFAD5A;
+}
+
+.first-para{
+    font-family: Poppins;
+    font-size: 18px;
+}
+
+.header-text a{
+    text-decoration: none;
+    color: #ffff;
+    background-color: #FF5959;
+    padding: 9px 15px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 7px #585656;
+    transition: all .2s linear;
+}
+
+.header-text a:hover{
+    box-shadow: none;
+    opacity: 80%;
+}
+
+.scroldown{
+    font-size: 12px;
+    font-family: Poppins;
+    margin-top: 40px;
+}
+
+.header-img{
+    padding-left: 100px;
+}
+
+/*-----------End of header-area section------------ */
+
+.my-header{
+    margin-top: 80px;
+}
+
+.my-header h1{
+    font-size: 50px;
+    font-family: YesevaOne;
+    color: #13103A;
+    text-align: center;
+}
+
+.my-header span{
+    color: #FFAD5A;
+}
+
+.card-box{
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.card{
+    margin: 0 15px;
+    padding: 15px 25px 10px 25px;
+    border-radius: 20px;
+    font-family: Poppins;
+}
+
+.card-1{
+    background-color: #e2c293de;
+}
+.card-2{
+    background-color: #b6e4e4de;
+}
+.card-3{
+    background-color: #da8a8ade;
+}
+
+.card img{
+    margin-right: 20%;
+}
+
+.card h4{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: #13103A;
+}
+
+.card p{
+    text-align: justify;
+    font-family: Manrope;
+}
+    
+/* ------------End of card-box section --------------*/
+
+#develop{
+    margin-top: 100px;
+    background-image: url(../images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position-x: 12%;
+    background-position-y: 30%;
+}
+
+.develop-area{
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.text-area{
+    margin-top: 70px;
+    padding-left: 20px;
+}
+
+.text-area h1{
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    font-family: YesevaOne;
+    color: #13103A;
+}
+
+.text-area p{
+    font-size: 18px;
+    font-family: Manrope;
+    margin-bottom: 35px;
+}
+
+.develop-area a{
+    text-decoration: none;
+    color: #ffff;
+    background-color: #FF5959;
+    padding: 9px 15px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 7px #585656;
+    transition: all .2s linear;
+}
+
+.develop-area a:hover{
+    box-shadow: none;
+    opacity: 80%;
+}
+
+/*------------- End of develop section---------------- */
+
+.know-our{
+    padding-bottom: 90px;
+    margin-top: 100px;
+    background-image: url(../images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 12%;
+    background-position-x: 85%;
+    background-position-y: 95%;
+}
+
+.our-area{
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.our-area p{
+    padding-right: 30px;
+}
+
+.our-area a{
+    text-decoration: none;
+    color: #ffff;
+    background-color: #5d56be;
+    padding: 9px 15px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 7px #585656;
+    transition: all .2s linear;
+}
+
+.our-area a:hover{
+    box-shadow: none;
+    opacity: 80%;
+}
+
+/*--------------- End of Know our section--------------- */
+
+#build{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 0 0 40px 0;
+    background-color: #e3e3f3e0;
+}
+.build-header h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    padding: 15px 0 0 0;
+    font-family: YesevaOne;
+    color: #13103A;
+}
+.build-header span{
+    color: #FFAD5A;
+}
+
+.build-area{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.success{
+    padding: 20px 40px;
+    text-align: center;
+    margin: 0 20px;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px #585656;
+}
+
+.success img{
+    margin-bottom: 15px;
+}
+
+.success h3{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    font-family: Roboto;
+    color: #13103A;
+}
+
+.success h6{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: Roboto;
+    color: #13103A;
+    font-style: italic;
+}
+
+.success p{
+    text-align: justify;
+    font-family: Roboto;
+}
+
+/* ------------End of build section----------------- */
+
+footer{
+    text-align: center;
+}
+
+.foot-text h5{
+    font-size: 24px;
+    margin: 10px 0;
+    font-family: YesevaOne;
+    padding: 0;
+}
+
+
+.foot-area{
+    height: 110px;
+    background-color: #0b0d17;
+    background-image: url(../images/fevicon.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position-x: 30px;
+    background-position-y: 30px;
+}
+.foot-area h3{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: YesevaOne;
+    padding: 20px 0 0 0;
+    margin: 0;
+}
+
+.foot-area p{
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+    font-size: 16px;
+}
